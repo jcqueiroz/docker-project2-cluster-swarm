@@ -4,7 +4,8 @@
 machines = {
   "master-project" => {"memory" => "1024", "cpu" => "1", "ip" => "250", "image" => "bento/ubuntu-22.04"},
   "node-project01" => {"memory" => "1024", "cpu" => "1", "ip" => "251", "image" => "bento/ubuntu-22.04"},
-  "node-project-02" => {"memory" => "1024", "cpu" => "1", "ip" => "252", "image" => "bento/ubuntu-22.04"}
+  "node-project-02" => {"memory" => "1024", "cpu" => "1", "ip" => "252", "image" => "bento/ubuntu-22.04"},
+  "node-project-03" => {"memory" => "1024", "cpu" => "1", "ip" => "253", "image" => "bento/ubuntu-22.04"}
 }
 
 Vagrant.configure("2") do |config|
